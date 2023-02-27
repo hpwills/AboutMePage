@@ -19,11 +19,12 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
     integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 
 <body>
   <!-- nav starts here -->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
     <div class="container">
       <a href="#" class="navbar-brand">About Hayden</a>
 
@@ -42,12 +43,56 @@
           <li class="nav-item">
             <a href="#music" class="nav-link">Favorite Music</a>
           </li>
-          <li>
         </ul>
       </div>
     </div>
   </nav>
   <!-- nav ends here -->
+  <!--Showcase starts here-->
+  <section class="bg-dark text-light p-5 text-center text-sm-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div>
+          <h1>Future 
+            <span class="text-warning">Web Developer</span>
+          </h1>
+          <p class="lead my-4"> <!--margin y-axis-->
+            A fast learner who is enthusiastic for all things regarding technology. Web development excites me because I love writing code and watching what I have designed as it comes to life.
+            
+          </p>
+          <button class="btn btn-primary btn-lg">#</button>
+        </div>
+        <img class="img-fluid w-50 d-none d-sm-block" src="./imgs/webdeveloper.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!--Showcase ends here-->
+  <!--Contact section starts here-->
+  <section class="bg-primary text-light p-5">
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb-3 mb-md-0">
+          Contact me
+        </h3>
+
+        <div class="input-group contact-input">
+          <input 
+          type="email" 
+          class="form-control" 
+          placeholder="Enter Email" 
+          />
+          <button 
+          class="btn btn-dark btn-lg" 
+          type="button"
+          >Button
+        </button>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--Contact section ends here-->
   <!-- about me starts here -->
   <div class="container">
     <div class="alert alert-secondary">
@@ -57,10 +102,10 @@
             <h1 class="text-center">About Me</h1>
             <h2 class="text-center">Hayden Williams</h2>
             <img src="./imgs/Twitch Logo portrait.jpg" class="img-fluid" alt="my photo">
-            <p class="text-center" id="career">Software Developer</p>
+            <p class="text-center" id="career">Web Development</p>
             <a class="btn btn-primary" href="https://www.facebook.com/hayden.williams.58/" target="_blank">My
               Profile</a>
-            <a class="btn btn-success" href="#">My Projects</a>
+            <a class="btn btn-success" href="https://github.com/hpwills" target="_blank">My Projects</a>
             <a class="btn btn-dark" href="https://www.linkedin.com/in/hayden-williams-352a0781/"
               target="_blank">LinkedIn</a>
           </div>
@@ -74,7 +119,7 @@
     <div class="alert alert-primary text-dark" class="col-4 col-lg-4">
       <h2>Favorite Music Artists</h2>
       <div class="row">
-        <ul class="row ms-auto">
+        <ul class="row mx-4">
           <li>Twenty One Pilots</li>
           <li>Morgan Wallen</li>
           <li>Juice WRLD</li>
@@ -84,6 +129,22 @@
     </div>
   </div>
   <!-- favorite music ends here -->
+<!--Boxes start here-->
+<section class="p-5">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md">
+        <div class="card bg-dark text-light">
+          <div class="card-body text-center">
+            <i class="bi bi-laptop"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md"></div>
+      <div class="col-md"></div>
+    </div>
+  </div>
+</section>
 </body>
 
 

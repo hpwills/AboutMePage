@@ -2,3 +2,8 @@ body {
     background: url("./imgs/losangeles.jpeg") center fixed;
     background-size: cover;
 }
+
+#career {
+    font-weight: bold;
+    font-style: italic;
+}
