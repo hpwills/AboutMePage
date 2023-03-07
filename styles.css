@@ -6,3 +6,8 @@ body {
     font-weight: bold;
     font-style: italic;
 }
+#gaming, #coding, #outdoors, #food, #travel {
+    padding: 5px;
+    border: solid white;
+    text-align: center;
+}
