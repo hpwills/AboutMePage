@@ -14,3 +14,7 @@ viewport {
     border: solid white;
     text-align: center;
 }
+
+.croft {
+    list-style-type: none;
+}
