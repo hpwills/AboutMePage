@@ -1,7 +1,12 @@
-body {
-    background: url("./imgs/losangeles.jpeg") center fixed;
-    background-size: cover;
-}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+  }
+
 viewport {
     width: 100%;
 }
